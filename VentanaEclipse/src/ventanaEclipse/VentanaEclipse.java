@@ -90,7 +90,7 @@ public class VentanaEclipse extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		lblUser.setBounds(236, 155, 116, 35);
+		lblUser.setBounds(221, 165, 116, 35);
 		contentPane.add(lblUser);
 		
 		textField = new JTextField();
@@ -125,6 +125,7 @@ public class VentanaEclipse extends JFrame {
 		contentPane.add(btnSend);
 		
 		JSlider slider = new JSlider();
+		slider.setValue(100);
 		slider.setBounds(12, 318, 200, 16);
 		contentPane.add(slider);
 		
