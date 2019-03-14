@@ -26,5 +26,15 @@ namespace Practica2_SebastianCiocarlan
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
