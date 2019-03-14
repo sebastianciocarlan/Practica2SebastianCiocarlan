@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -43,8 +41,21 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.menuStrip1.SuspendLayout();
+            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
+            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cargarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pegarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirAyudaF1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreNosotrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -71,36 +82,6 @@
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tipo";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem,
-            this.editarToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(328, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // archivoToolStripMenuItem
-            // 
-            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // editarToolStripMenuItem
-            // 
-            this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.editarToolStripMenuItem.Text = "Editar";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // textBox1
             // 
@@ -154,6 +135,7 @@
             // 
             // monthCalendar1
             // 
+            this.monthCalendar1.BackColor = System.Drawing.Color.DimGray;
             this.monthCalendar1.Location = new System.Drawing.Point(131, 132);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 10;
@@ -178,12 +160,109 @@
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            // domainUpDown1
+            // 
+            this.domainUpDown1.Location = new System.Drawing.Point(12, 218);
+            this.domainUpDown1.Name = "domainUpDown1";
+            this.domainUpDown1.Size = new System.Drawing.Size(107, 20);
+            this.domainUpDown1.TabIndex = 13;
+            this.domainUpDown1.Text = "domainUpDown1";
+            // 
+            // archivoToolStripMenuItem
+            // 
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevoToolStripMenuItem,
+            this.guardarToolStripMenuItem,
+            this.cargarToolStripMenuItem});
+            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
+            // editarToolStripMenuItem
+            // 
+            this.editarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.copiaToolStripMenuItem,
+            this.pegarToolStripMenuItem});
+            this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.editarToolStripMenuItem.Text = "Editar";
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirAyudaF1ToolStripMenuItem,
+            this.sobreNosotrosToolStripMenuItem});
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem,
+            this.editarToolStripMenuItem,
+            this.ayudaToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(328, 24);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // nuevoToolStripMenuItem
+            // 
+            this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem.Text = "Nuevo";
+            // 
+            // guardarToolStripMenuItem
+            // 
+            this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.guardarToolStripMenuItem.Text = "Guardar";
+            // 
+            // cargarToolStripMenuItem
+            // 
+            this.cargarToolStripMenuItem.Name = "cargarToolStripMenuItem";
+            this.cargarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cargarToolStripMenuItem.Text = "Cargar";
+            // 
+            // copiaToolStripMenuItem
+            // 
+            this.copiaToolStripMenuItem.Name = "copiaToolStripMenuItem";
+            this.copiaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.copiaToolStripMenuItem.Text = "Copia";
+            this.copiaToolStripMenuItem.Click += new System.EventHandler(this.copiaToolStripMenuItem_Click);
+            // 
+            // pegarToolStripMenuItem
+            // 
+            this.pegarToolStripMenuItem.Name = "pegarToolStripMenuItem";
+            this.pegarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pegarToolStripMenuItem.Text = "Pegar";
+            // 
+            // abrirAyudaF1ToolStripMenuItem
+            // 
+            this.abrirAyudaF1ToolStripMenuItem.Name = "abrirAyudaF1ToolStripMenuItem";
+            this.abrirAyudaF1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirAyudaF1ToolStripMenuItem.Text = "Abrir ayuda (F1)";
+            // 
+            // sobreNosotrosToolStripMenuItem
+            // 
+            this.sobreNosotrosToolStripMenuItem.Name = "sobreNosotrosToolStripMenuItem";
+            this.sobreNosotrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sobreNosotrosToolStripMenuItem.Text = "Sobre nosotros";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(328, 323);
+            this.Controls.Add(this.domainUpDown1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.monthCalendar1);
@@ -197,15 +276,16 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.HelpButton = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Practica2";
             this.TransparencyKey = System.Drawing.SystemColors.InactiveBorder;
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,10 +295,6 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
@@ -228,6 +304,19 @@
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.DomainUpDown domainUpDown1;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem nuevoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cargarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copiaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pegarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirAyudaF1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreNosotrosToolStripMenuItem;
     }
 }
 

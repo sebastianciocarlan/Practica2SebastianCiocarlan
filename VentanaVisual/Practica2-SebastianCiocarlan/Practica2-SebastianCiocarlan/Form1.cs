@@ -21,5 +21,10 @@ namespace Practica2_SebastianCiocarlan
         {
 
         }
+
+        private void copiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
