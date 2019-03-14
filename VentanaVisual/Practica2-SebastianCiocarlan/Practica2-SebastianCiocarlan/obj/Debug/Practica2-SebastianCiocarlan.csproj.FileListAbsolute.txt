@@ -1,0 +1,10 @@
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\bin\Debug\Practica2-SebastianCiocarlan.exe.config
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\bin\Debug\Practica2-SebastianCiocarlan.exe
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\bin\Debug\Practica2-SebastianCiocarlan.pdb
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2-SebastianCiocarlan.csprojAssemblyReference.cache
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2_SebastianCiocarlan.Form1.resources
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2_SebastianCiocarlan.Properties.Resources.resources
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2-SebastianCiocarlan.csproj.GenerateResource.cache
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2-SebastianCiocarlan.csproj.CoreCompileInputs.cache
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2-SebastianCiocarlan.exe
+C:\Users\sebas\source\repos\Practica2-SebastianCiocarlan\Practica2-SebastianCiocarlan\obj\Debug\Practica2-SebastianCiocarlan.pdb
