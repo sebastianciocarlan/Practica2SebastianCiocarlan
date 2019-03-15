@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Libreria {
 	public static void escribirNombre(String nombre) {
-		System.out.println("Hola mi nombre es : "+nombre);
+		Console.Out.WriteLine("Hola mi nombre es : "+nombre);
 	}
 	public static void factorial(int num) {
 		int valor = 1;
 		for(int i = 0; i<=num;i++) {
 			valor = valor *i;
 		}
-		System.out.println("El factorial es :"+valor);
+		Console.Out.WriteLine("El factorial es :"+valor);
 	}
 	public static void listaNumeros(int n, Scanner sc) {
 		int[] array = new int[n];
 		
 		for(int i = 0; i<n;i++) {
-			System.out.println("Introduce el numero "+i+1);
-			array[i] = sc.nextInt();
+			Console.Out.WriteLine("Introduce el numero "+i+1);
+			array[i] = Console.In.Read();
 		}
 		int max = array[0];
 		for (int i =0; i<n;i++) {
@@ -27,6 +27,6 @@ public class Libreria {
 			}
 			
 		}
-		System.out.println("El mayor es: "+max);
+		Console.Out.WriteLine("El mayor es: "+max);
 	}
 }

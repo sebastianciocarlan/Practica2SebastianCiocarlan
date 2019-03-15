@@ -1,0 +1,10 @@
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\bin\Debug\ConsolaVisual.exe.config
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\bin\Debug\ConsolaVisual.exe
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\bin\Debug\ConsolaVisual.pdb
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\bin\Debug\ClassLibrary1.dll
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\bin\Debug\ClassLibrary1.pdb
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\obj\Debug\ConsolaVisual.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\obj\Debug\ConsolaVisual.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\obj\Debug\ConsolaVisual.csproj.CopyComplete
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\obj\Debug\ConsolaVisual.exe
+C:\Users\sebas\Desktop\Practica2SebastianCiocarlan\ConsolaVisual\ConsolaVisual\obj\Debug\ConsolaVisual.pdb
